@@ -79,7 +79,7 @@
 	        "uniqueTo": "French Empire",
 		"movement": 3,
 		"range": 3,
-		"strength": 16,
+		"strength": 18,
 		"rangedStrength": 20,
 		"cost": 185,
 		"requiredTech": "Chemistry",
