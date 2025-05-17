@@ -1,38 +1,39 @@
 [
-	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+{
+		"name": "French Empire", 
+		"leaderName": "Napoleon I", 
+		"adjective": ["French"],
+		"startBias": ["Wine"],
+		"personality": "Napoleon I",
+		"preferredVictoryType": "Domination",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"startIntroPart1": "Long life and triumph to you, First Consul and Emperor of France, Napoleon I, ruler of the French people. France lies at the heart of Europe. Long has Paris been the world center of culture, arts and letters. Although surrounded by competitors - and often enemies - France has endured as a great nation. Its armies have marched triumphantly into battle from one end of the world to the other, its soldiers and generals among the best in history.",
+		"startIntroPart2": "Napoleon Bonaparte, France yearns for you to rebuild your empire, to lead her once more to glory and greatness, to make France once more the epicenter of culture and refinement. Emperor, will you ride once more against your foes? Can you build a civilization that will stand the test of time?",
+		"declaringWar": "I have made all the calculations; fate will do the rest.",
+		"attacked": "The bullet that will kill me is not yet cast.",
+		"defeated": "There's nothing we can do.",
+		"introduction": "I am Napoleon, and I am here to decide the fate of the world.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+		"neutralHello": "The Empire endures. For now, so do you.",
+		"hateHello": "You have outlived your usefulness.",
+
+		"tradeRequest": "France considers your offer. Speak.",
+
+		"outerColor": [66, 100, 174],
+		"innerColor": [242, 244, 183],
+		"favoredReligion": "Christianity",
+
+		"uniqueName": "Ancien Regimee",
+		"uniques": ["[-50]% maintenance costs <for [Land] units>", "Allied City-States provide [Culture] equal to [+100]% of what they produce for themselves <in [capital] cities>",
+			    "[+1 Food, +1 Culture] from [Coast] tiles [in all cities]"]
+			
+		"cities": ["Paris","Marseille","Lyon","Bordeaux","Rouen","Nantes","Toulouse","Rome","Amsterdam","Lille","Toulon","Barcelona","Brussels",
+			"Strasbourg","Geneva","Brest","Metz","Turin","Florence","Saint-Étienne","Nîmes","Amiens","Orléans","Cologne","Hamburg","Angers",
+			"Caen","Montpellier","Nancy","Münster","Bremen","Reims","Le Havre","Besançon","Limoges","Rennes","Avignon","Lübeck","Versailles",
+			"Rotterdam","Nice","Trieste","Clermont-Ferrand","Tours","Dijon","Genoa","Mulhouse","Grenoble","Antwerp","Utrecht","Boulogne","Cherbourg",
+			"Dunkirk","Tourcoing","Troyes","Arras","Aix-en-Provence","The Hague","Bayonne","Poitiers","Arles","Le Mans","Calais","Luxembourg",
+			"Laibach","Erfurt","Liège","Bruges","Cattaro","Zara","Ragusa","Segna","Lunéville","Ajaccio"],
+		"spyNames": ["Fouché","Savary","Talleyrand","Caulaincourt","Junot","Murat","Bertrand","Gourgaud","Duroc","Davout"],
+
+	},
 ]
