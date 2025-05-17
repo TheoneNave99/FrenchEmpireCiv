@@ -1,17 +1,49 @@
 [
-	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
+{
+		"name": "Garde Impériale",
+		"unitType": "Gunpowder",
+	   	"replaces": "Rifleman",
+		"uniqueTo": "French Empire",
+		"promotions": ["Great Generals I"],
 		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
+		"strength": 37,
+		"cost": 230,
+		"requiredTech": "Rifling",
+                "obsoleteTech": "Replaceable Parts", 
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+   },
+   {
+		"name": "Chevau-Léger",
+		"unitType": "Mounted",
+	        "replaces": "Cavalry",
+	        "uniqueTo": "French Empire",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+	        "promotions": ["Shock I"],
+		"upgradesTo": "Landship",
+		"obsoleteTech": "Combustion",
+		"attackSound": "horse"
+   },
+
+	{
+		"name": "Marshal",
+		"unitType": "Mounted",
+		"uniqueTo": "French Empire",
+		"movement": 5,
+		"strength": 38,
 		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+		"requiredTech": "Military Science",
+		"upgradesTo": "Landship",
+		"obsoleteTech": "Combustion",
+		"promotions": ["Sentry"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit", "[+20]% Strength bonus for [Military] units within [3] tiles",
+			    "All adjacent units heal [+15] HP when healing", "[+15] HP when healing", "Can instantly construct a [Citadel] improvement <by consuming this unit>"],
+		"attackSound": "horse"
+	},
+
 ]
