@@ -1,5 +1,21 @@
 [
 	{
+		"name": "French Knight",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "French Empire",
+		"movement": 3,
+		"strength": 24,
+		"cost": 130,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"promotions": ["Shock I"]
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
 		"name": "Royal Musketeer",
 		"unitType": "Gunpowder",
 		"replaces": "Musketman",
