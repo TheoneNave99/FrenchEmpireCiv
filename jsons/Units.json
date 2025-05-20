@@ -21,7 +21,7 @@
 		"replaces": "Musketman",
 		"uniqueTo": "French Empire",
 		"movement": 2,
-		"strength": 29,
+		"strength": 28,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
